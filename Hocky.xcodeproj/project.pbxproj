@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A849A1112B2B8908006D8046 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A849A1102B2B8908006D8046 /* AppDelegate.m */; };
+		A849A1142B2B8908006D8046 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A849A1132B2B8908006D8046 /* SceneDelegate.m */; };
+		A849A11A2B2B8908006D8046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A849A1182B2B8908006D8046 /* Main.storyboard */; };
+		A849A11C2B2B890A006D8046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A849A11B2B2B890A006D8046 /* Assets.xcassets */; };
+		A849A11F2B2B890A006D8046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A849A11D2B2B890A006D8046 /* LaunchScreen.storyboard */; };
+		A849A1222B2B890A006D8046 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A849A1212B2B890A006D8046 /* main.m */; };
+		A849A12C2B2B890B006D8046 /* HockyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A849A12B2B2B890B006D8046 /* HockyTests.m */; };
+		A849A1362B2B890B006D8046 /* HockyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A849A1352B2B890B006D8046 /* HockyUITests.m */; };
+		A849A1382B2B890B006D8046 /* HockyUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A849A1372B2B890B006D8046 /* HockyUITestsLaunchTests.m */; };
+		A849A1452B2B8BE2006D8046 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A849A1442B2B8BE2006D8046 /* ViewController.mm */; };
+		A849A1482B2B8D59006D8046 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A849A1472B2B8D59006D8046 /* AVFoundation.framework */; };
+		A849A14A2B2B8D72006D8046 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A849A1492B2B8D72006D8046 /* Accelerate.framework */; };
+		A849A14C2B2B8D87006D8046 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A849A14B2B2B8D87006D8046 /* CoreGraphics.framework */; };
+		A849A14E2B2B8DA5006D8046 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A849A14D2B2B8DA5006D8046 /* CoreImage.framework */; };
+		A849A1502B2B8DCC006D8046 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A849A14F2B2B8DCC006D8046 /* CoreMedia.framework */; };
+		A849A1522B2B8DFA006D8046 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A849A1512B2B8DFA006D8046 /* CoreVideo.framework */; };
+		A849A1582B2B9918006D8046 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A849A1572B2B9918006D8046 /* UIKit.framework */; };
+		A849A15A2B2B9925006D8046 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A849A1592B2B9925006D8046 /* Foundation.framework */; };
+		A849A15C2B2B9933006D8046 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A849A15B2B2B9932006D8046 /* QuartzCore.framework */; };
+		A849A15E2B2B9E1F006D8046 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A849A15D2B2B9E1F006D8046 /* AssetsLibrary.framework */; };
+		F31C83DA2B338A6A003750A2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C83D92B338A6A003750A2 /* ImageIO.framework */; };
+		F31C83DC2B338A7A003750A2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C83DB2B338A7A003750A2 /* MobileCoreServices.framework */; };
+		F31C83DD2B338F9E003750A2 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39AA41A2B32FEBD008357EE /* opencv2.framework */; };
+		F33B89662B357363005DD33A /* IMG_4674.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F33B89652B357363005DD33A /* IMG_4674.mp4 */; };
+		F33B89682B357486005DD33A /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F33B89672B357486005DD33A /* 1.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A849A1282B2B890B006D8046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A849A1042B2B8908006D8046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A849A10B2B2B8908006D8046;
+			remoteInfo = Hocky;
+		};
+		A849A1322B2B890B006D8046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A849A1042B2B8908006D8046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A849A10B2B2B8908006D8046;
+			remoteInfo = Hocky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A849A10C2B2B8908006D8046 /* Hocky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hocky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A849A10F2B2B8908006D8046 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A849A1102B2B8908006D8046 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A849A1122B2B8908006D8046 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A849A1132B2B8908006D8046 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A849A1152B2B8908006D8046 /* ViewController.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ViewController.hh; sourceTree = "<group>"; };
+		A849A1192B2B8908006D8046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A849A11B2B2B890A006D8046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A849A11E2B2B890A006D8046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A849A1202B2B890A006D8046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A849A1212B2B890A006D8046 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A849A1272B2B890B006D8046 /* HockyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HockyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A849A12B2B2B890B006D8046 /* HockyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HockyTests.m; sourceTree = "<group>"; };
+		A849A1312B2B890B006D8046 /* HockyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HockyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A849A1352B2B890B006D8046 /* HockyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HockyUITests.m; sourceTree = "<group>"; };
+		A849A1372B2B890B006D8046 /* HockyUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HockyUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A849A1442B2B8BE2006D8046 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		A849A1472B2B8D59006D8046 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A849A1492B2B8D72006D8046 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A849A14B2B2B8D87006D8046 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A849A14D2B2B8DA5006D8046 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A849A14F2B2B8DCC006D8046 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A849A1512B2B8DFA006D8046 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A849A1572B2B9918006D8046 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A849A1592B2B9925006D8046 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A849A15B2B2B9932006D8046 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A849A15D2B2B9E1F006D8046 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F31C83D82B338A3D003750A2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F31C83D92B338A6A003750A2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F31C83DB2B338A7A003750A2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F33B89652B357363005DD33A /* IMG_4674.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_4674.mp4; sourceTree = "<group>"; };
+		F33B89672B357486005DD33A /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		F39AA41A2B32FEBD008357EE /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A849A1092B2B8908006D8046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A849A15C2B2B9933006D8046 /* QuartzCore.framework in Frameworks */,
+				A849A14C2B2B8D87006D8046 /* CoreGraphics.framework in Frameworks */,
+				A849A15A2B2B9925006D8046 /* Foundation.framework in Frameworks */,
+				A849A1582B2B9918006D8046 /* UIKit.framework in Frameworks */,
+				A849A1482B2B8D59006D8046 /* AVFoundation.framework in Frameworks */,
+				F31C83DD2B338F9E003750A2 /* opencv2.framework in Frameworks */,
+				A849A14A2B2B8D72006D8046 /* Accelerate.framework in Frameworks */,
+				A849A14E2B2B8DA5006D8046 /* CoreImage.framework in Frameworks */,
+				A849A15E2B2B9E1F006D8046 /* AssetsLibrary.framework in Frameworks */,
+				F31C83DC2B338A7A003750A2 /* MobileCoreServices.framework in Frameworks */,
+				F31C83DA2B338A6A003750A2 /* ImageIO.framework in Frameworks */,
+				A849A1502B2B8DCC006D8046 /* CoreMedia.framework in Frameworks */,
+				A849A1522B2B8DFA006D8046 /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A849A1242B2B890B006D8046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A849A12E2B2B890B006D8046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A849A1032B2B8908006D8046 = {
+			isa = PBXGroup;
+			children = (
+				A849A10E2B2B8908006D8046 /* Hocky */,
+				A849A12A2B2B890B006D8046 /* HockyTests */,
+				A849A1342B2B890B006D8046 /* HockyUITests */,
+				A849A10D2B2B8908006D8046 /* Products */,
+				A849A1462B2B8D26006D8046 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A849A10D2B2B8908006D8046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A849A10C2B2B8908006D8046 /* Hocky.app */,
+				A849A1272B2B890B006D8046 /* HockyTests.xctest */,
+				A849A1312B2B890B006D8046 /* HockyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A849A10E2B2B8908006D8046 /* Hocky */ = {
+			isa = PBXGroup;
+			children = (
+				F33B89672B357486005DD33A /* 1.mp4 */,
+				F33B89652B357363005DD33A /* IMG_4674.mp4 */,
+				A849A1442B2B8BE2006D8046 /* ViewController.mm */,
+				A849A10F2B2B8908006D8046 /* AppDelegate.h */,
+				A849A1102B2B8908006D8046 /* AppDelegate.m */,
+				A849A1122B2B8908006D8046 /* SceneDelegate.h */,
+				A849A1132B2B8908006D8046 /* SceneDelegate.m */,
+				A849A1152B2B8908006D8046 /* ViewController.hh */,
+				A849A1182B2B8908006D8046 /* Main.storyboard */,
+				A849A11B2B2B890A006D8046 /* Assets.xcassets */,
+				A849A11D2B2B890A006D8046 /* LaunchScreen.storyboard */,
+				A849A1202B2B890A006D8046 /* Info.plist */,
+				A849A1212B2B890A006D8046 /* main.m */,
+			);
+			path = Hocky;
+			sourceTree = "<group>";
+		};
+		A849A12A2B2B890B006D8046 /* HockyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A849A12B2B2B890B006D8046 /* HockyTests.m */,
+			);
+			path = HockyTests;
+			sourceTree = "<group>";
+		};
+		A849A1342B2B890B006D8046 /* HockyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A849A1352B2B890B006D8046 /* HockyUITests.m */,
+				A849A1372B2B890B006D8046 /* HockyUITestsLaunchTests.m */,
+			);
+			path = HockyUITests;
+			sourceTree = "<group>";
+		};
+		A849A1462B2B8D26006D8046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F31C83DB2B338A7A003750A2 /* MobileCoreServices.framework */,
+				F31C83D92B338A6A003750A2 /* ImageIO.framework */,
+				F31C83D82B338A3D003750A2 /* libc++.tbd */,
+				F39AA41A2B32FEBD008357EE /* opencv2.framework */,
+				A849A15D2B2B9E1F006D8046 /* AssetsLibrary.framework */,
+				A849A15B2B2B9932006D8046 /* QuartzCore.framework */,
+				A849A1592B2B9925006D8046 /* Foundation.framework */,
+				A849A1572B2B9918006D8046 /* UIKit.framework */,
+				A849A1512B2B8DFA006D8046 /* CoreVideo.framework */,
+				A849A14F2B2B8DCC006D8046 /* CoreMedia.framework */,
+				A849A14D2B2B8DA5006D8046 /* CoreImage.framework */,
+				A849A14B2B2B8D87006D8046 /* CoreGraphics.framework */,
+				A849A1492B2B8D72006D8046 /* Accelerate.framework */,
+				A849A1472B2B8D59006D8046 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A849A10B2B2B8908006D8046 /* Hocky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A849A13B2B2B890B006D8046 /* Build configuration list for PBXNativeTarget "Hocky" */;
+			buildPhases = (
+				A849A1082B2B8908006D8046 /* Sources */,
+				A849A1092B2B8908006D8046 /* Frameworks */,
+				A849A10A2B2B8908006D8046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hocky;
+			productName = Hocky;
+			productReference = A849A10C2B2B8908006D8046 /* Hocky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A849A1262B2B890B006D8046 /* HockyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A849A13E2B2B890B006D8046 /* Build configuration list for PBXNativeTarget "HockyTests" */;
+			buildPhases = (
+				A849A1232B2B890B006D8046 /* Sources */,
+				A849A1242B2B890B006D8046 /* Frameworks */,
+				A849A1252B2B890B006D8046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A849A1292B2B890B006D8046 /* PBXTargetDependency */,
+			);
+			name = HockyTests;
+			productName = HockyTests;
+			productReference = A849A1272B2B890B006D8046 /* HockyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A849A1302B2B890B006D8046 /* HockyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A849A1412B2B890B006D8046 /* Build configuration list for PBXNativeTarget "HockyUITests" */;
+			buildPhases = (
+				A849A12D2B2B890B006D8046 /* Sources */,
+				A849A12E2B2B890B006D8046 /* Frameworks */,
+				A849A12F2B2B890B006D8046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A849A1332B2B890B006D8046 /* PBXTargetDependency */,
+			);
+			name = HockyUITests;
+			productName = HockyUITests;
+			productReference = A849A1312B2B890B006D8046 /* HockyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A849A1042B2B8908006D8046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A849A10B2B2B8908006D8046 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					A849A1262B2B890B006D8046 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A849A10B2B2B8908006D8046;
+					};
+					A849A1302B2B890B006D8046 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A849A10B2B2B8908006D8046;
+					};
+				};
+			};
+			buildConfigurationList = A849A1072B2B8908006D8046 /* Build configuration list for PBXProject "Hocky" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A849A1032B2B8908006D8046;
+			productRefGroup = A849A10D2B2B8908006D8046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A849A10B2B2B8908006D8046 /* Hocky */,
+				A849A1262B2B890B006D8046 /* HockyTests */,
+				A849A1302B2B890B006D8046 /* HockyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A849A10A2B2B8908006D8046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33B89662B357363005DD33A /* IMG_4674.mp4 in Resources */,
+				A849A11F2B2B890A006D8046 /* LaunchScreen.storyboard in Resources */,
+				F33B89682B357486005DD33A /* 1.mp4 in Resources */,
+				A849A11C2B2B890A006D8046 /* Assets.xcassets in Resources */,
+				A849A11A2B2B8908006D8046 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A849A1252B2B890B006D8046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A849A12F2B2B890B006D8046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A849A1082B2B8908006D8046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A849A1112B2B8908006D8046 /* AppDelegate.m in Sources */,
+				A849A1452B2B8BE2006D8046 /* ViewController.mm in Sources */,
+				A849A1222B2B890A006D8046 /* main.m in Sources */,
+				A849A1142B2B8908006D8046 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A849A1232B2B890B006D8046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A849A12C2B2B890B006D8046 /* HockyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A849A12D2B2B890B006D8046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A849A1362B2B890B006D8046 /* HockyUITests.m in Sources */,
+				A849A1382B2B890B006D8046 /* HockyUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A849A1292B2B890B006D8046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A849A10B2B2B8908006D8046 /* Hocky */;
+			targetProxy = A849A1282B2B890B006D8046 /* PBXContainerItemProxy */;
+		};
+		A849A1332B2B890B006D8046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A849A10B2B2B8908006D8046 /* Hocky */;
+			targetProxy = A849A1322B2B890B006D8046 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A849A1182B2B8908006D8046 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A849A1192B2B8908006D8046 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A849A11D2B2B890A006D8046 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A849A11E2B2B890A006D8046 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A849A1392B2B890B006D8046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A849A13A2B2B890B006D8046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A849A13C2B2B890B006D8046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = 3R4WCPZG65;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hocky/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Hocky would like to access to your camera";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickolay.Hocky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A849A13D2B2B890B006D8046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = 3R4WCPZG65;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hocky/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Hocky would like to access to your camera";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickolay.Hocky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A849A13F2B2B890B006D8046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R4WCPZG65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Teleplay.HockyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hocky.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hocky";
+			};
+			name = Debug;
+		};
+		A849A1402B2B890B006D8046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R4WCPZG65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Teleplay.HockyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hocky.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hocky";
+			};
+			name = Release;
+		};
+		A849A1422B2B890B006D8046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R4WCPZG65;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Teleplay.HockyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hocky;
+			};
+			name = Debug;
+		};
+		A849A1432B2B890B006D8046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R4WCPZG65;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Teleplay.HockyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hocky;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A849A1072B2B8908006D8046 /* Build configuration list for PBXProject "Hocky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A849A1392B2B890B006D8046 /* Debug */,
+				A849A13A2B2B890B006D8046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A849A13B2B2B890B006D8046 /* Build configuration list for PBXNativeTarget "Hocky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A849A13C2B2B890B006D8046 /* Debug */,
+				A849A13D2B2B890B006D8046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A849A13E2B2B890B006D8046 /* Build configuration list for PBXNativeTarget "HockyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A849A13F2B2B890B006D8046 /* Debug */,
+				A849A1402B2B890B006D8046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A849A1412B2B890B006D8046 /* Build configuration list for PBXNativeTarget "HockyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A849A1422B2B890B006D8046 /* Debug */,
+				A849A1432B2B890B006D8046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A849A1042B2B8908006D8046 /* Project object */;
+}
