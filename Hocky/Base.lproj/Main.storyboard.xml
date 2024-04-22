@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kUZ-CV-XGn">
+                                <rect key="frame" x="59" y="0.0" width="734" height="372"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4Ga-kX-4Xo">
+                                <rect key="frame" x="59" y="0.0" width="734" height="372"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQ7-uZ-p3w">
+                                <rect key="frame" x="633" y="20" width="160" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="I02-kI-4kL"/>
+                                    <constraint firstAttribute="width" constant="160" id="II1-5J-oIE"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Toggle Camera">
+                                    <color key="titleColor" name="AccentColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="onToggleCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JxK-Kz-shC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kUZ-CV-XGn" firstAttribute="centerY" secondItem="4Ga-kX-4Xo" secondAttribute="centerY" id="41U-eH-XqM"/>
+                            <constraint firstItem="4Ga-kX-4Xo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Bko-WM-dge"/>
+                            <constraint firstItem="kUZ-CV-XGn" firstAttribute="height" secondItem="4Ga-kX-4Xo" secondAttribute="height" id="O1D-UI-nsk"/>
+                            <constraint firstItem="4Ga-kX-4Xo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PUX-3j-Gpc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4Ga-kX-4Xo" secondAttribute="bottom" id="j29-eD-ePh"/>
+                            <constraint firstItem="kUZ-CV-XGn" firstAttribute="width" secondItem="4Ga-kX-4Xo" secondAttribute="width" id="lUf-mp-etl"/>
+                            <constraint firstItem="4Ga-kX-4Xo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tOF-t2-bYe"/>
+                            <constraint firstItem="MQ7-uZ-p3w" firstAttribute="trailing" secondItem="4Ga-kX-4Xo" secondAttribute="trailing" id="tcg-hb-tr6"/>
+                            <constraint firstItem="kUZ-CV-XGn" firstAttribute="centerX" secondItem="4Ga-kX-4Xo" secondAttribute="centerX" id="x0u-ig-XzB"/>
+                            <constraint firstItem="MQ7-uZ-p3w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="ziE-hZ-y8p"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cameraPreview" destination="kUZ-CV-XGn" id="deX-FW-T3Q"/>
+                        <outlet property="imageView" destination="4Ga-kX-4Xo" id="uFZ-Tp-ZF0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-146" y="73"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
